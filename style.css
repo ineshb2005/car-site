@@ -1,0 +1,98 @@
+p{
+    text-align: center;
+}
+img{
+    align-self: first baseline;
+}
+h1{
+    text-align: center;}
+
+.overlay-image{
+    position: absolute;
+    top: 413px;
+    pointer-events: none;
+}.floatleft{
+    text-align: right;
+    margin-top: 50px;
+}
+    .container {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 20px;
+}.rotate-text{
+    transform: rotate(270deg);
+    display: inline-block;
+    transform-origin:left bottom;
+    margin-left:150px;
+    margin-top: 50px;
+    color: darkgray;
+    text-align: center;
+}
+.styledline{
+    border: 0;
+    height: 1px;
+    
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-right: 0px;
+}
+.container {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+}
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Space between text and line */
+    color:rgb(173, 152, 47) ;
+    size: 20px;
+}
+.line {
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid rgb(173, 152, 47);
+    width: 64px; /* Adjust width as needed */
+}
+#overlay{
+    position: absolute;
+    top: 1213px;
+    pointer-events: none;
+   
+}
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.contain {
+    display: flex;
+justify-content: space-around; /* Adjusts space between boxes */
+    align-items: center; /* Vertically centers the boxes */
+    height: 100vh; /* Full viewport height */
+    margin: 10px;
+    margin-left: 105px;
+}
+
+.box {
+    width: 300px; /* Width of each box */
+    height: 300px; /* Height of each box */
+    border: 1px solid rgb(173, 152, 47);; /* Border style */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    margin: 0 10px;
+   
+}
+.topleftalign{
+    vertical-align: text-top;
+    align-items: start;
+}
+.imgmargin{
+    margin: 5px;
+    float: right;
+}*{
+    vertical-align: middle;
+}
